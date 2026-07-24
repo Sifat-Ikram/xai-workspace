@@ -41,7 +41,7 @@ export default function Hero() {
                     </Canvas>
                 </div>
 
-                <div className="absolute inset-0 bg-gradient-to-b from-bg/10 via-transparent to-bg pointer-events-none" />
+                <div className="absolute inset-0 bg-linear-to-b from-bg/10 via-transparent to-bg pointer-events-none" />
 
                 <div className="relative h-full max-w-7xl mx-auto px-6 md:px-10 flex flex-col justify-center">
                     <motion.span

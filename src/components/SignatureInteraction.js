@@ -52,7 +52,7 @@ export default function SignatureInteraction() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true, margin: '-100px' }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                    className="relative rounded-2xl border border-border bg-surface h-[480px] md:h-[560px] cursor-grab active:cursor-grabbing"
+                    className="relative rounded-2xl border border-border bg-surface h-120 md:h-140 cursor-grab active:cursor-grabbing"
                     onPointerDown={handlePointerDown}
                     onPointerMove={handlePointerMove}
                     onPointerUp={handlePointerUp}

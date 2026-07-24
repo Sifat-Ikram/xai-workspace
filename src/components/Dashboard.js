@@ -44,7 +44,7 @@ export default function Dashboard() {
                         ))}
                     </aside>
 
-                    <div className="p-6 md:p-8 min-h-[420px]">
+                    <div className="p-6 md:p-8 min-h-105">
                         <AnimatePresence mode="wait">
                             <motion.div
                                 key={active}

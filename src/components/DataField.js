@@ -95,7 +95,7 @@ export default function DataField({ progressRef, pointerRef }) {
                     <bufferAttribute attach="attributes-position" array={current} count={COUNT} itemSize={3} />
                     <bufferAttribute attach="attributes-color" array={colors} count={COUNT} itemSize={3} />
                 </bufferGeometry>
-                <pointsMaterial size={0.045} vertexColors transparent opacity={0.85} sizeAttenuation depthWrite={false} />
+                <pointsMaterial size={0.06} vertexColors transparent opacity={0.85} sizeAttenuation depthWrite={false} />
             </points>
         </group>
     );
